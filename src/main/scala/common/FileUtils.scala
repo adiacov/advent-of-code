@@ -14,5 +14,4 @@ object FileUtils {
           s"Could not read file: ]$fileName], becausa of $exception"
         )
       case Success(value) => value
-
 }
